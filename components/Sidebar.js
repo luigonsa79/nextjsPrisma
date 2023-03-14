@@ -9,10 +9,11 @@ const Sidebar = () => {
   return (
     <>
         <Image 
-            width={300}
-            height={100}
+            width={100}
+            height={50}
             src="/assets/img/logo.svg"
             alt="imagen logotipo"
+            className="w-full mx-auto"
         />
 
         <nav className="mt-10">

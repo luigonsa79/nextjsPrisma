@@ -1,5 +1,6 @@
 import Image from "next/image"
 
+
 const Categoria = ({categoria}) => {
     const {nombre, icono, id} = categoria
     return (
