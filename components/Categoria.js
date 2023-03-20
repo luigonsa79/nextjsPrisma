@@ -4,7 +4,7 @@ import Image from "next/image"
 const Categoria = ({categoria}) => {
     const {nombre, icono, id} = categoria
     return (
-        <div className="flex items-center gap-4 border w-full p-5 hover:bg-amber-500">
+        <div className="flex items-center gap-4 border w-full p-5 hover:bg-amber-500 mx-11">
             <Image 
                 width={70}
                 height={70}

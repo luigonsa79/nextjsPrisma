@@ -11,7 +11,7 @@ export default function Layout({children, pagina}) {
             <aside className="md:w-4/12 xl:w-1/4 2xl:w-1/5">
                 <Sidebar />
             </aside>
-            <main className="md:w-8/12 xl:w-3/4 2xl:w-4/5 overflow-y-scroll">
+            <main className="md:w-8/12 xl:w-3/4 2xl:w-4/5 ml-20 overflow-y-scroll dark:bg-slate-800 dark:text-white px-10">
                 {children}
             </main>
         </div>
