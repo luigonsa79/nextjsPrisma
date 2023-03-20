@@ -12,7 +12,7 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-// MODELO TABLAS
+// MODELO TABLAS ::
 
 model producto {
   id Int @id @default(autoincrement())
