@@ -20,3 +20,4 @@ CREATE TABLE `categoria` (
 
 -- AddForeignKey
 ALTER TABLE `producto` ADD CONSTRAINT `producto_idCategoria_fkey` FOREIGN KEY (`idCategoria`) REFERENCES `categoria`(`id`) ON DELETE RESTRICT ON UPDATE CASCADE;
+
